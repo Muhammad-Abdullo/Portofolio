@@ -1,0 +1,252 @@
+export const profileData = {
+  name: 'MUHAMMAD ABDULLOH',
+  title: 'Network Engineer | Cloud Engineer',
+  avatar: '/foto_latar.jpeg',
+  email: 'inimuhammad777@gmail.com',
+  phone: '+62 81357841933',
+  birthday: 'Desember 17, 2007',
+  location: 'Surabaya, IDN',
+  social: {
+    github: 'https://github.com/Muhammad-Abdullo',
+    linkedin: 'https://www.linkedin.com/in/muhammadabdulloh-id/', // <-- Sudah diperbaiki huruf kecil & rapi tanpa spasi
+    instagram: 'https://www.instagram.com/moehmmdxy?igsh=MW12aWtjcGtxeXFobA%3D%3D&utm_source=qr',
+  },
+}
+
+export const aboutData = {
+  description: [
+    "I'm a Network Engineer and Cloud Computing Enthusiast from Indonesia with a passion for building reliable, secure, and efficient network infrastructures. My interests include networking, cloud computing, virtualization, and system administration.",
+    "I have hands-on experience in network installation, FTTH deployment, network troubleshooting, and cloud technologies. I am eager to continue developing my skills and contributing to innovative IT solutions that help organizations operate effectively in today's digital environment.",
+  ],
+  services: [
+    {
+        icon: 'Server', 
+        title: 'Network Installation',
+        description: 'Installing, configuring, and maintaining LAN, WAN, and wireless network infrastructure to ensure stable and secure connectivity.',
+      },
+      {
+        icon: 'Activity', 
+        title: 'Network Monitoring',
+        description: 'Monitoring network performance, troubleshooting connectivity issues, and optimizing infrastructure reliability.',
+      },
+      {
+        icon: 'Cloud', 
+        title: 'Cloud Computing',
+        description: 'configure, and manage cloud-based server infrastructure using AWS to ensure systems run efficiently, securely, and have high scalability.',
+      },
+      {
+        icon: 'Cpu', 
+        title: 'Virtualization',
+        description: 'Building network simulation environments, operating system installations, and conducting IT infrastructure testing securely through virtualization technology.',
+      },
+    ],
+  testimonials: [
+    {
+      avatar: '/professional-man.jpg',
+      name: 'Daniel Lewis',
+      text: 'John was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
+    },
+    {
+      avatar: '/professional-woman-diverse.png',
+      name: 'Jessica Miller',
+      text: 'John was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
+    },
+    {
+      avatar: '/professional-man.jpg',
+      name: 'Michael Chen',
+      text: 'Outstanding work! John delivered a high-quality product that exceeded our expectations. His attention to detail is remarkable.',
+    },
+    {
+      avatar: '/professional-woman-diverse.png',
+      name: 'Sarah Johnson',
+      text: 'Professional, creative, and highly skilled. John is the developer you want on your team for any complex project.',
+    },
+  ],
+  clients: [
+    { name: 'Aws', logo: '/aws.png' },
+    { name: 'Vscode', logo: '/vscode.png' },
+    { name: 'VirtualBox', logo: '/virtualbox.png' },
+    { name: 'CentOS', logo: '/centos.png' },
+    { name: 'Winbox', logo: '/winbox.png' },
+    { name: 'Github', logo: '/githuub.png' },
+    { name: 'Figma', logo: '/figma.png' },
+    { name: 'AppMakers', logo: '/micro.png' },
+  ],
+}
+
+export const resumeData = {
+  education: [
+    {
+      title: 'SMK Telkom Malang',
+      period: '2023 — 2026',
+      description:
+        'Studied Computer and Network Engineering, focusing on network infrastructure, telecommunications, and cloud computing principles.',
+    },
+  ],
+  experience: [
+    {
+      title: 'Internship Network Engineer at PT. Telkomsel',
+      period: 'November 2025 — April 2026',
+      description:
+        'Join the VIP Network, Event & Enterprise Handling team.',
+    },
+  ],
+  skills: [
+    { name: 'Network Installation', level: 90 },
+    { name: 'Network Monitoring', level: 95 },
+    { name: 'Cloud Computing', level: 85 },
+    { name: 'Virtualization', level: 80 },
+  ],
+}
+
+export const portfolioData = {
+  categories: ['all', 'Engineering', 'Creative Ventures', 'Leadership & Community'],
+  projects: [
+    {
+      title: 'Serverless PoC',
+      category: 'Engineering',
+      image: '/serverless.png',
+      description: 'Full-stack e-commerce solution with payment integration',
+      tech: ['Next.js', 'Node.js', 'PostgreSQL'],
+      liveUrl: 'https://drive.google.com/file/d/1xu9mDNJrNpo2EwihGHSPBUFneiUHp3hm/view?usp=sharing',
+      githubUrl: 'https://github.com/Muhammad-Abdullo/Portofolio/blob/main/serverless.png?raw=true',
+    },
+    {
+      title: 'AWS Academy Cloud Found & Cloud Ops',
+      category: 'Engineering',
+      image: '/nilai_aws.png',
+      description: 'Collaborative task manager with real-time updates',
+      tech: ['React', 'Firebase', 'TypeScript'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/taskmanager',
+    },
+    {
+      title: 'Tower Climbing Simulation',
+      category: 'Engineering',
+      image: '/tower.jpeg',
+      description: 'Modern portfolio design for creative professionals',
+      tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/portfolio',
+    },
+    {
+      title: 'Wireless Network Survey',
+      category: 'Engineering',
+      image: '/wt_telkom.jpeg',
+      description: 'Analytics dashboard with data visualization',
+      tech: ['React', 'D3.js', 'Express'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/dashboard',
+    },
+    {
+      title: 'Media & Documentation Language Month',
+      category: 'Creative Ventures',
+      image: '/bulba.jpeg',
+      description: 'Analytics dashboard with data visualization',
+      tech: ['React', 'D3.js', 'Express'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/dashboard',
+    },
+    {
+      title: 'Online Gambling Awareness Campaign',
+      category: 'Leadership & Community',
+      image: '/p5.jpg',
+      description: 'Analytics dashboard with data visualization',
+      tech: ['React', 'D3.js', 'Express'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/dashboard',
+    },
+  ],
+}
+
+export const certificationData = {
+  posts: [
+    {
+      title: 'TOEFL',
+      category: 'Creative Ventures',
+      date: 'Nov 15, 2025',
+      readTime: '1 hour',
+      image: '/Toefl-cert.png',
+      excerpt: 'Official TOEFL iBT certificate verifying core English language skills with a total score of 58.',
+      tags: ['Comunication', 'Writing', 'Listening'],
+      liveUrl: 'https://drive.google.com/file/d/1HJcIlW9kxZH3msda-01-hXTgK4T_F5IG/view?usp=sharing',
+    },
+    {
+      title: 'English Discoveries by Edusoft - Basic 3',
+      category: 'Creative Ventures',
+      date: 'June , 2026',
+      readTime: '1 year',
+      image: '/ED.png',
+      excerpt: 'Certified in English Discoveries Basic 3 by Edusoft, validating foundation-level proficiency in English grammar and practical vocabulary..',
+      tags: ['English Communication', 'CEFR A2'],
+      liveUrl: 'https://drive.google.com/file/d/1rPcqypJgD2DgwK7zEJA5ObS9I6Im__dt/view?usp=sharing',
+    },
+    {
+      title: 'web Application and Cloud Database Management for Office Environments by JagoanHosting',
+      category: 'Engineering',
+      date: 'Nov , 2025',
+      readTime: '1 Day',
+      image: '/jh.png',
+      excerpt: 'Successfully managing web applications and cloud databases under the Vocational Competency program with Jagoan Hosting.',
+      tags: ['Cloud Database', 'Web Management'],
+      liveUrl: 'https://drive.google.com/file/d/1VZGZ2VAaPzHS432g4QQ-NKlYTFxgVmNx/view?usp=sharing',
+    },
+    {
+      title: 'Certiport IT Specialist: Data Analytics',
+      category: 'Engineering',
+      date: 'Des 11, 2025',
+      readTime: '1 Day',
+      image: '/certiport.png',
+      excerpt: 'International certification validating core skills in data preparation, statistical analysis, and data visualization.',
+      tags: ['Data Analytics'],
+      liveUrl: 'https://drive.google.com/file/d/1soCz7-KMw-4YSP24t_YqNfrC74Foc3Qp/view?usp=sharing',
+    },
+    {
+      title: 'Indonesian Language Proficiency Test (UKBI)',
+      category: 'Creative Ventures',
+      date: 'Sep 19, 2024',
+      readTime: '1 Day',
+      image: '/ukbi.png',
+      excerpt: 'Official certification validating professional Indonesian language proficiency and formal communication skills.',
+      tags: ['Indonesian'],
+      liveUrl: 'https://drive.google.com/file/d/1f9bcHHNF77XxIlN0sh0VqjxWU_Cj_sru/view?usp=sharing',
+    },
+    {
+      title: 'An End-to-End Serverless Workflow on AWS with Automated Infrastructure',
+      category: 'Engineering',
+      date: 'May 19, 2025',
+      readTime: '1 Day',
+      image: '/n-to-n.png',
+      excerpt: 'Awarded with an Excellent predicate for completing an End-to-End Serverless Workflow project on AWS with automated infrastructure.',
+      tags: ['AWS', 'Cloud', 'Serverless'],
+      liveUrl: 'https://drive.google.com/file/d/12PpLv-wqfbJYJfZa4Q7kATTtNPShuqBo/view?usp=sharing',
+    },
+    {
+      title: 'Level Up Test Computer and Network Engineering skills competency',
+      category: 'Engineering',
+      date: 'Nov 29, 2024',
+      readTime: '1 Day',
+      image: '/ukl.png',
+      excerpt: 'participating in the Level Up Test for Computer and Network Engineering skills competency.',
+      tags: ['Networking', 'Competency'],
+      liveUrl: 'https://drive.google.com/file/d/15YYvY9v4yx2wr82uiorIZ5RTKxDA0xmE/view?usp=sharing',
+    },
+    {
+      title: 'Capital Market School by BEI / IDX',
+      category: 'Creative Ventures',
+      date: 'Feb 3, 2026',
+      readTime: '1 Day',
+      image: '/spm.png',
+      excerpt: 'completion of the Capital Market School (SPM) program, covering stock market mechanisms and investment strategies.',
+      tags: ['Finance', 'Investment', 'Stock Market'],
+      liveUrl: 'https://drive.google.com/file/d/1oPaWh0my_sgp6Ish2Jh5Lm_Pd2i-F0AW/view?usp=sharing',
+    },
+  ],
+}
+
+export const contactData = {
+  email: 'inimuhammad777@gmail.com',
+  phone: '+62 81357841933',
+  location: 'Surabaya, IDN',
+  mapEmbedUrl: 'https://maps.google.com/maps?q=Surabaya&t=&z=13&ie=UTF8&iwloc=&output=embed',
+}
