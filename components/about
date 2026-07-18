@@ -1,0 +1,76 @@
+import { Server, Activity, Cloud, Cpu } from 'lucide-react'
+import { aboutData } from '@/lib/portfolio-data'
+
+interface AboutSectionProps {
+  data?: typeof aboutData
+}
+
+export function AboutSection({ data = aboutData }: AboutSectionProps) {
+  // Map string icon names to actual Lucide components safely
+  const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+    Server: Server,
+    Activity: Activity,
+    Cloud: Cloud,
+    Cpu: Cpu,
+    // Fallback for old icons just in case
+    Code: Server,
+    Zap: Activity,
+    Smartphone: Cloud,
+    PenTool: Cpu,
+  }
+
+  return (
+    <section className="space-y-12">
+      {/* Services Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {data.services.map((service, index) => {
+          const IconComponent = iconMap[service.icon] || Server
+          return (
+            <div 
+              key={index}
+              className="p-6 bg-secondary border border-border rounded-2xl hover:border-accent transition-all duration-300 flex gap-4"
+            >
+              <div className="text-accent shrink-0 mt-1">
+                <IconComponent className="w-6 h-6" />
+              </div>
+              <div className="space-y-2">
+                <h3 className="text-lg font-bold text-foreground">{service.title}</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">{service.description}</p>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+
+      {/* --- FITUR TOOLS & TECHNOLOGIES YANG BISA DIGESER --- */}
+      <div className="pt-4">
+        <h3 className="text-xl font-bold text-foreground mb-6">Tools & Technologies</h3>
+        
+        {/* Menggunakan overflow-x-auto agar bisa di-slide/geser ke samping dengan mulus */}
+        <div className="flex items-center gap-4 overflow-x-auto pb-4 scrollbar-none snap-x select-none">
+          {data.clients && data.clients.map((client, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center justify-center min-w-[110px] max-w-[110px] h-24 bg-secondary border border-border rounded-2xl p-3 snap-center transition-all duration-300 hover:border-accent"
+            >
+              <img
+                src={client.logo}
+                alt={client.name}
+                className="h-9 w-auto object-contain mb-2 opacity-75 hover:opacity-100 transition-opacity"
+                onError={(e) => {
+                  // Mencegah error jika gambar belum diupload ke folder public
+                  e.currentTarget.style.opacity = '0.4';
+                }}
+              />
+              <span className="text-[11px] font-medium text-muted-foreground text-center block truncate w-full">
+                {client.name}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* ---------------------------------------------------- */}
+
+    </section>
+  )
+}
