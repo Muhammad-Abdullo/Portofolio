@@ -47,9 +47,9 @@ export const aboutData = {
     { name: 'CentOS', logo: '/centos.png' },
     { name: 'Github', logo: '/githuub.png' },
     { name: 'VirtualBox', logo: '/virtualbox.png' },
-    { name: 'Figma', logo: '/web-agency-logo.jpg' },
-    { name: 'Microsoft', logo: '/app-development-logo.jpg' },
-    { name: 'Winbox', logo: '/web-agency-logo.jpg' },
+    { name: 'Figma', logo: '/figma.png' },
+    { name: 'Microsoft', logo: '/micro.png' },
+    { name: 'Winbox', logo: '/winbox.png' },
   ],
 }
 
