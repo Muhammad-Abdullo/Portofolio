@@ -1,96 +1,127 @@
-'use client'
-
 import { Mail, Phone, Calendar, MapPin } from 'lucide-react'
+import { Github, Linkedin, Instagram } from 'lucide-react' // Diubah dari Twitter ke Linkedin
+import { profileData } from '@/lib/portfolio-data'
 
-interface ProfileData {
-  name: string
-  role: string
-  email: string
-  phone: string
-  birthday: string
-  location: string
-  avatarUrl: string
+interface ProfileSidebarProps {
+  data?: typeof profileData
 }
 
-export function ProfileSidebar({ data }: { data: ProfileData }) {
+export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
+  // Membersihkan nomor telepon agar menjadi format angka bersih untuk WhatsApp (misal: 6281357841933)
+  const whatsappNumber = data.phone.replace(/[^0-9]/g, '')
+
   return (
-    <aside className="w-full lg:w-80 bg-card rounded-xl md:rounded-2xl border border-border p-4 sm:p-6 lg:p-8 flex flex-col items-center text-center lg:text-left lg:items-start h-fit lg:sticky lg:top-6">
-      {/* Avatar & Nama */}
-      <div className="relative w-32 h-32 sm:w-36 sm:h-36 rounded-2xl overflow-hidden mb-4 bg-muted border border-border">
-        <img
-          src={data.avatarUrl || "/placeholder.svg"}
-          alt={data.name}
-          className="w-full h-full object-cover"
-        />
+    <aside className="w-full lg:w-80 bg-card rounded-2xl border border-border p-4 md:p-6 lg:sticky lg:top-8 h-fit">
+      {/* Profile Image */}
+      <div className="flex flex-col items-center">
+        <div className="relative w-24 h-24 md:w-32 md:h-32 mb-4 md:mb-6">
+          <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-accent/20 via-accent/5 to-transparent animate-pulse-slow" />
+          <div className="absolute inset-[2px] rounded-3xl bg-secondary overflow-hidden">
+            <img
+              src={data.avatar || "/placeholder.svg"}
+              alt={data.name}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
+        <h1 className="text-xl md:text-2xl font-bold text-foreground mb-1">{data.name}</h1>
+        <p className="text-xs md:text-sm text-muted-foreground bg-secondary px-3 md:px-4 py-1 rounded-lg">
+          {data.title}
+        </p>
       </div>
 
-      <h1 className="text-xl sm:text-2xl font-bold tracking-tight mb-2 text-foreground">
-        {data.name}
-      </h1>
-      
-      <p className="text-xs sm:text-sm text-muted-foreground bg-secondary px-3 py-1.5 rounded-lg mb-6 inline-block font-medium">
-        {data.role}
-      </p>
+      {/* Divider */}
+      <div className="h-px bg-border my-4 md:my-6" />
 
-      <div className="w-full border-t border-border my-2 lg:block hidden"></div>
-
-      {/* Info Kontak */}
-      <div className="w-full space-y-4 sm:space-y-5 text-left pt-4">
-        {/* EMAIL (Bisa diklik langsung buka aplikasi Email) */}
-        <div className="flex items-center gap-3 group">
-          <div className="p-2.5 rounded-xl bg-secondary text-primary border border-border/50">
-            <Mail className="h-4 w-4" />
+      {/* Contact Info */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 md:gap-4">
+        <div className="flex items-start gap-3">
+          <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
+            <Mail className="w-5 h-5 text-accent" />
           </div>
-          <div className="min-w-0 flex-1">
-            <p className="text-[10px] font-bold tracking-wider text-muted-foreground uppercase">Email</p>
-            <a 
+          <div className="flex-1 min-w-0">
+            <p className="text-xs text-muted-foreground uppercase mb-1">Email</p>
+            <a
               href={`mailto:${data.email}`}
-              className="text-xs sm:text-sm text-foreground hover:text-primary hover:underline transition-colors block truncate"
+              className="text-sm text-foreground hover:text-accent transition-colors break-all"
             >
               {data.email}
             </a>
           </div>
         </div>
 
-        {/* PHONE (Bisa diklik langsung chat ke WhatsApp) */}
-        <div className="flex items-center gap-3 group">
-          <div className="p-2.5 rounded-xl bg-secondary text-primary border border-border/50">
-            <Phone className="h-4 w-4" />
+        {/* Bagian Phone diubah menjadi Tautan Chat WhatsApp */}
+        <div className="flex items-start gap-3">
+          <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
+            <Phone className="w-5 h-5 text-accent" />
           </div>
-          <div className="min-w-0 flex-1">
-            <p className="text-[10px] font-bold tracking-wider text-muted-foreground uppercase">Phone</p>
-            <a 
-              href="https://wa.me/6281357841933" 
-              target="_blank" 
+          <div className="flex-1">
+            <p className="text-xs text-muted-foreground uppercase mb-1">Phone</p>
+            <a
+              href={`https://wa.me/${whatsappNumber}`}
+              target="_blank"
               rel="noopener noreferrer"
-              className="text-xs sm:text-sm text-foreground hover:text-green-500 hover:underline transition-colors block truncate"
+              className="text-sm text-foreground hover:text-accent transition-colors"
             >
               {data.phone}
             </a>
           </div>
         </div>
 
-        {/* BIRTHDAY */}
-        <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-xl bg-secondary text-primary border border-border/50">
-            <Calendar className="h-4 w-4" />
+        <div className="flex items-start gap-3">
+          <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
+            <Calendar className="w-5 h-5 text-accent" />
           </div>
-          <div>
-            <p className="text-[10px] font-bold tracking-wider text-muted-foreground uppercase">Birthday</p>
-            <p className="text-xs sm:text-sm text-foreground">{data.birthday}</p>
+          <div className="flex-1">
+            <p className="text-xs text-muted-foreground uppercase mb-1">Birthday</p>
+            <p className="text-sm text-foreground">{data.birthday}</p>
           </div>
         </div>
 
-        {/* LOCATION */}
-        <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-xl bg-secondary text-primary border border-border/50">
-            <MapPin className="h-4 w-4" />
+        <div className="flex items-start gap-3">
+          <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
+            <MapPin className="w-5 h-5 text-accent" />
           </div>
-          <div>
-            <p className="text-[10px] font-bold tracking-wider text-muted-foreground uppercase">Location</p>
-            <p className="text-xs sm:text-sm text-foreground">{data.location}</p>
+          <div className="flex-1">
+            <p className="text-xs text-muted-foreground uppercase mb-1">Location</p>
+            <p className="text-sm text-foreground">{data.location}</p>
           </div>
         </div>
+      </div>
+
+      {/* Social Links */}
+      <div className="flex items-center justify-center gap-4 mt-4 md:mt-6 pt-4 md:pt-6 border-t border-border">
+        <a
+          href={data.social.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
+          aria-label="GitHub"
+        >
+          <Github className="w-5 h-5" />
+        </a>
+        
+        {/* Ikon kedua sudah diubah ke LinkedIn di bawah ini */}
+        <a
+          href={data.social.linkedin} 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
+          aria-label="LinkedIn"
+        >
+          <Linkedin className="w-5 h-5" />
+        </a>
+
+        <a
+          href={data.social.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
+          aria-label="Instagram"
+        >
+          <Instagram className="w-5 h-5" />
+        </a>
       </div>
     </aside>
   )
