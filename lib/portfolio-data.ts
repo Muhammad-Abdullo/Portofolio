@@ -1,7 +1,7 @@
 export const profileData = {
   name: 'MUHAMMAD ABDULLOH',
   title: 'Network Engineer | Cloud Engineer',
-  avatar: '/professional-developer-avatar.png',
+  avatar: '/foto_latar.jpeg',
   email: 'inimuhammad777@gmail.com',
   phone: '+62 81357841933',
   birthday: 'Desember 17, 2007',
