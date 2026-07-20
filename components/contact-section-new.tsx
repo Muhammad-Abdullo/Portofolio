@@ -28,6 +28,7 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
         <div className="w-10 h-1 bg-accent rounded-full mb-6" />
       </div>
 
+      {/* Google Maps Embed */}
       <div className="w-full h-64 md:h-80 rounded-xl md:rounded-2xl overflow-hidden border border-border bg-secondary">
         <iframe
           src={data.mapEmbedUrl}
@@ -41,7 +42,9 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
         />
       </div>
 
+      {/* Info Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+        {/* Email */}
         <div className="flex items-center gap-3 md:gap-4 p-4 md:p-5 bg-secondary rounded-xl md:rounded-2xl border border-border hover:border-accent transition-colors group">
           <div className="w-12 h-12 md:w-14 md:h-14 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
             <Mail className="w-5 h-5 md:w-6 md:h-6 text-accent" />
@@ -57,6 +60,7 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
           </div>
         </div>
 
+        {/* Phone */}
         <div className="flex items-center gap-3 md:gap-4 p-4 md:p-5 bg-secondary rounded-xl md:rounded-2xl border border-border hover:border-accent transition-colors group">
           <div className="w-12 h-12 md:w-14 md:h-14 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
             <Phone className="w-5 h-5 md:w-6 md:h-6 text-accent" />
@@ -72,6 +76,7 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
           </div>
         </div>
 
+        {/* Location */}
         <div className="flex items-center gap-3 md:gap-4 p-4 md:p-5 bg-secondary rounded-xl md:rounded-2xl border border-border hover:border-accent transition-colors group">
           <div className="w-12 h-12 md:w-14 md:h-14 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-accent/20 transition-colors">
             <MapPin className="w-5 h-5 md:w-6 md:h-6 text-accent" />
@@ -83,8 +88,10 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
         </div>
       </div>
 
+      {/* Contact Form */}
       <form onSubmit={handleSubmit} className="space-y-5 md:space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6">
+          {/* Full Name */}
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
               Full Name
@@ -95,10 +102,11 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               className="w-full px-4 md:px-5 py-3 md:py-3.5 bg-secondary border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-2 focus:ring-accent/20 focus:outline-none transition-all text-sm md:text-base"
-              placeholder="John Doe"
+              placeholder="Your name"
               required
             />
           </div>
+          {/* Email Address */}
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
               Email Address
@@ -109,12 +117,13 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
               className="w-full px-4 md:px-5 py-3 md:py-3.5 bg-secondary border border-border rounded-xl text-foreground placeholder:text-muted-foreground focus:border-accent focus:ring-2 focus:ring-accent/20 focus:outline-none transition-all text-sm md:text-base"
-              placeholder="john@example.com"
+              placeholder="Your email"
               required
             />
           </div>
         </div>
 
+        {/* Your Message */}
         <div>
           <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
             Your Message
@@ -130,6 +139,7 @@ export function ContactSection({ data = contactData }: ContactSectionProps) {
           />
         </div>
 
+        {/* Submit Button */}
         <button
           type="submit"
           className="flex items-center justify-center gap-2 w-full md:w-auto px-6 md:px-8 py-3 md:py-3.5 bg-accent text-accent-foreground rounded-xl font-medium hover:shadow-lg hover:shadow-accent/20 hover:-translate-y-0.5 transition-all text-sm md:text-base"
