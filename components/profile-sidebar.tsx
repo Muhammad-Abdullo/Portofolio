@@ -1,5 +1,5 @@
 import { Mail, Phone, Calendar, MapPin } from 'lucide-react'
-import { Github, Twitter, Instagram } from 'lucide-react'
+import { Github, Linkedin, Instagram } from 'lucide-react' // Diubah dari Twitter ke Linkedin
 import { profileData } from '@/lib/portfolio-data'
 
 interface ProfileSidebarProps {
@@ -95,15 +95,18 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
         >
           <Github className="w-5 h-5" />
         </a>
+        
+        {/* Ikon kedua sudah diubah ke LinkedIn di bawah ini */}
         <a
-          href={data.social.twitter}
+          href={data.social.linkedin} 
           target="_blank"
           rel="noopener noreferrer"
           className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
-          aria-label="Twitter"
+          aria-label="LinkedIn"
         >
-          <Twitter className="w-5 h-5" />
+          <Linkedin className="w-5 h-5" />
         </a>
+
         <a
           href={data.social.instagram}
           target="_blank"
