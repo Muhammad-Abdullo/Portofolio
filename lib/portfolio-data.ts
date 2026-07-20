@@ -21,22 +21,22 @@ export const aboutData = {
   services: [
     {
       icon: 'Code',
-      title: 'Frontend Development',
+      title: 'Network Installation',
       description: 'Building modern, responsive web applications with React, Next.js, and TypeScript.',
     },
     {
       icon: 'Zap',
-      title: 'Backend Development',
+      title: 'Network Monitoring',
       description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
     },
     {
       icon: 'Smartphone',
-      title: 'Mobile Development',
+      title: 'Cloud Computing',
       description: 'Professional development of mobile applications with React Native and modern tools.',
     },
     {
       icon: 'PenTool',
-      title: 'UI/UX Design',
+      title: 'Virtualization',
       description: 'Designing intuitive and beautiful user interfaces that enhance user experience.',
     },
   ],
