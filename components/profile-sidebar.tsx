@@ -1,5 +1,5 @@
 import { Mail, Phone, Calendar, MapPin } from 'lucide-react'
-import { Github, Twitter, Instagram } from 'lucide-react'
+import { Github, Linkedin, Instagram } from 'lucide-react' // Diubah dari Twitter ke Linkedin
 import { profileData } from '@/lib/portfolio-data'
 
 interface ProfileSidebarProps {
@@ -7,6 +7,9 @@ interface ProfileSidebarProps {
 }
 
 export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
+  // Membersihkan nomor telepon agar menjadi format angka bersih untuk WhatsApp (misal: 6281357841933)
+  const whatsappNumber = data.phone.replace(/[^0-9]/g, '')
+
   return (
     <aside className="w-full lg:w-80 bg-card rounded-2xl border border-border p-4 md:p-6 lg:sticky lg:top-8 h-fit">
       {/* Profile Image */}
@@ -48,6 +51,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           </div>
         </div>
 
+        {/* Bagian Phone diubah menjadi Tautan Chat WhatsApp */}
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
             <Phone className="w-5 h-5 text-accent" />
@@ -55,7 +59,9 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           <div className="flex-1">
             <p className="text-xs text-muted-foreground uppercase mb-1">Phone</p>
             <a
-              href={`tel:${data.phone.replace(/\s/g, '')}`}
+              href={`https://wa.me/${whatsappNumber}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm text-foreground hover:text-accent transition-colors"
             >
               {data.phone}
@@ -95,15 +101,18 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
         >
           <Github className="w-5 h-5" />
         </a>
+        
+        {/* Ikon kedua sudah diubah ke LinkedIn di bawah ini */}
         <a
-          href={data.social.twitter}
+          href={data.social.linkedin} 
           target="_blank"
           rel="noopener noreferrer"
           className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
-          aria-label="Twitter"
+          aria-label="LinkedIn"
         >
-          <Twitter className="w-5 h-5" />
+          <Linkedin className="w-5 h-5" />
         </a>
+
         <a
           href={data.social.instagram}
           target="_blank"

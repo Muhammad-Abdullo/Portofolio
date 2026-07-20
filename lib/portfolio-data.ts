@@ -1,74 +1,55 @@
 export const profileData = {
   name: 'MUHAMMAD ABDULLOH',
   title: 'Network Engineer | Cloud Engineer',
-  avatar: '/professional-developer-avatar.png',
+  avatar: '/foto_latar.jpeg',
   email: 'inimuhammad777@gmail.com',
   phone: '+62 81357841933',
   birthday: 'Desember 17, 2007',
   location: 'Surabaya, Indonesia',
   social: {
-    github: 'https://github.com/johndoe',
-    twitter: 'https://twitter.com/johndoe',
-    instagram: 'https://instagram.com/johndoe',
+    github: 'https://github.com/Muhammad-Abdullo',
+    linkedin: 'https://linkedin.com/in/muhammadabdulloh-id/', 
+    instagram: 'https://www.instagram.com/moehmmdxy?igsh=MW12aWtjcGtxeXFobA%3D%3D&utm_source=qr',
   },
 }
 
 export const aboutData = {
   description: [
-    "I'm a Full-Stack Developer from San Francisco, California, specializing in web development and creating innovative digital solutions. I enjoy turning complex problems into simple, beautiful and intuitive applications.",
-    "My job is to build your website or application so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I've worked with various technologies including React, Next.js, Node.js, and modern cloud platforms.",
+    "Hello! I am Muhammad Abdulloh, an IT professional with a background in Computer Engineering and Networking. I have a keen interest in Network Engineering, IT Support, and Cloud Computing. I enjoy the process of building, managing, and optimizing network infrastructure to ensure it operates stably, securely, and efficiently.",
+    "I believe that learning never stops. Therefore, I continuously develop my technical skills, keep up with technological advancements, and seek new experiences to become a professional capable of delivering the best solutions for every challenge in the IT world..",
   ],
   services: [
     {
-      icon: 'Code',
-      title: 'Frontend Development',
-      description: 'Building modern, responsive web applications with React, Next.js, and TypeScript.',
+      icon: 'Server',
+      title: 'Network Installation',
+      description: 'Designing, configuring, and deploying structured cabling, routers, and switches for secure enterprise network infrastructures.',
     },
     {
-      icon: 'Zap',
-      title: 'Backend Development',
-      description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
+      icon: 'Activity',
+      title: 'Network Monitoring',
+      description: 'Tracking network performance, managing traffic loads, and diagnosing connectivity issues in real-time to guarantee continuous uptime.',
     },
     {
-      icon: 'Smartphone',
-      title: 'Mobile Development',
-      description: 'Professional development of mobile applications with React Native and modern tools.',
+      icon: 'Cloud',
+      title: 'Cloud Computing',
+      description: 'Deploying and managing scalable cloud infrastructure architectures, optimizing resources, and maintaining secure cloud configurations.',
     },
     {
-      icon: 'PenTool',
-      title: 'UI/UX Design',
-      description: 'Designing intuitive and beautiful user interfaces that enhance user experience.',
+      icon: 'Layers',
+      title: 'Virtualization',
+      description: 'Configuring and hypervising virtual machines and containers to maximize hardware efficiency and ensure high system availability.',
     },
   ],
-  testimonials: [
-    {
-      avatar: '/professional-man.jpg',
-      name: 'Daniel Lewis',
-      text: 'John was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
-    },
-    {
-      avatar: '/professional-woman-diverse.png',
-      name: 'Jessica Miller',
-      text: 'John was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
-    },
-    {
-      avatar: '/professional-man.jpg',
-      name: 'Michael Chen',
-      text: 'Outstanding work! John delivered a high-quality product that exceeded our expectations. His attention to detail is remarkable.',
-    },
-    {
-      avatar: '/professional-woman-diverse.png',
-      name: 'Sarah Johnson',
-      text: 'Professional, creative, and highly skilled. John is the developer you want on your team for any complex project.',
-    },
-  ],
+  testimonials: [], 
   clients: [
-    { name: 'TechCorp', logo: '/tech-company-logo.jpg' },
-    { name: 'StartupHub', logo: '/startup-logo.png' },
-    { name: 'DesignStudio', logo: '/design-agency-logo.png' },
-    { name: 'CodeLabs', logo: '/software-company-logo.png' },
-    { name: 'WebSolutions', logo: '/web-agency-logo.jpg' },
-    { name: 'AppMakers', logo: '/app-development-logo.jpg' },
+    { name: 'Visualcode', logo: '/vscode.png' },
+    { name: 'AWS', logo: '/aws.png' },
+    { name: 'CentOS', logo: '/centos.png' },
+    { name: 'Github', logo: '/githuub.png' },
+    { name: 'VirtualBox', logo: '/virtualbox.png' },
+    { name: 'Figma', logo: '/figma.png' },
+    { name: 'Microsoft', logo: '/micro.png' },
+    { name: 'Winbox', logo: '/winbox.png' },
   ],
 }
 
@@ -78,7 +59,7 @@ export const resumeData = {
       title: 'SMK Telkom Malang',
       period: '2023 — 2026',
       description:
-        'Studied Computer Science with a focus on web technologies and software engineering principles.',
+        'Students majoring in Computer and Network Engineering (TKJ) study computer networking, system administration, device installation, troubleshooting, and cloud technology to prepare for the workforce.',
     },
   ],
   experience: [
@@ -86,13 +67,13 @@ export const resumeData = {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
       description:
-        'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.',
+        'Responsible for the maintenance and troubleshooting of IT equipment in Pertamina gas station operational areas, including computers, networks, printers, POS systems, CCTV, and other supporting devices. Tasks include installation, configuration, and routine maintenance, as well as providing technical support to users to ensure all operational systems run stably and optimally.',
     },
     {
-      title: 'Full-Stack Developer',
-      period: '2018 — 2020',
+      title: 'PT. Telkomsel',
+      period: 'November 2025 — April 2026',
       description:
-        'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create seamless user experiences.',
+        'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.',
     },
   ],
   skills: [

@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'John Doe - Full-Stack Developer',
+  title: 'Muhammad Abdulloh Portofolio',
   description: 'Portfolio of John Doe, a Full-Stack Developer specializing in modern web technologies',
   generator: 'v0.app',
   icons: {
