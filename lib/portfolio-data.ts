@@ -20,48 +20,27 @@ export const aboutData = {
   ],
   services: [
     {
-      icon: 'Code',
+      icon: 'Server',
       title: 'Network Installation',
-      description: 'Building modern, responsive web applications with React, Next.js, and TypeScript.',
+      description: 'Designing, configuring, and deploying structured cabling, routers, and switches for secure enterprise network infrastructures.',
     },
     {
-      icon: 'Zap',
+      icon: 'Activity',
       title: 'Network Monitoring',
-      description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
+      description: 'Tracking network performance, managing traffic loads, and diagnosing connectivity issues in real-time to guarantee continuous uptime.',
     },
     {
-      icon: 'Smartphone',
+      icon: 'Cloud',
       title: 'Cloud Computing',
-      description: 'Professional development of mobile applications with React Native and modern tools.',
+      description: 'Deploying and managing scalable cloud infrastructure architectures, optimizing resources, and maintaining secure cloud configurations.',
     },
     {
-      icon: 'PenTool',
+      icon: 'Layers',
       title: 'Virtualization',
-      description: 'Designing intuitive and beautiful user interfaces that enhance user experience.',
+      description: 'Configuring and hypervising virtual machines and containers to maximize hardware efficiency and ensure high system availability.',
     },
   ],
-  testimonials: [
-    {
-      avatar: '/professional-man.jpg',
-      name: 'Daniel Lewis',
-      text: 'John was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
-    },
-    {
-      avatar: '/professional-woman-diverse.png',
-      name: 'Jessica Miller',
-      text: 'John was hired to create a corporate identity. We were very pleased with the work done. He has a lot of experience and is very concerned about the needs of client.',
-    },
-    {
-      avatar: '/professional-man.jpg',
-      name: 'Michael Chen',
-      text: 'Outstanding work! John delivered a high-quality product that exceeded our expectations. His attention to detail is remarkable.',
-    },
-    {
-      avatar: '/professional-woman-diverse.png',
-      name: 'Sarah Johnson',
-      text: 'Professional, creative, and highly skilled. John is the developer you want on your team for any complex project.',
-    },
-  ],
+  testimonials: [], // Ditambahkan kosong agar sistem tidak error dan fiturnya hilang
   clients: [
     { name: 'TechCorp', logo: '/tech-company-logo.jpg' },
     { name: 'StartupHub', logo: '/startup-logo.png' },
