@@ -42,9 +42,9 @@ export const aboutData = {
   ],
   testimonials: [], 
   clients: [
-    { name: 'Aws', logo: '/tech-company-logo.jpg' },
+    { name: 'Visualcode', logo: '/vscode.png' },
     { name: 'Pyhton', logo: '/startup-logo.png' },
-    { name: 'VisualCode', logo: '/design-agency-logo.png' },
+    { name: 'AWS', logo: '/aws.png' },
     { name: 'CentOS', logo: '/software-company-logo.png' },
     { name: 'Github', logo: '/web-agency-logo.jpg' },
     { name: 'VirtualBox', logo: '/app-development-logo.jpg' },
