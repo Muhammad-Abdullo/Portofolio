@@ -83,8 +83,8 @@ export const resumeData = {
   ],
   experience: [
     {
-      title: 'Senior Full-Stack Developer',
-      period: '2020 — Present',
+      title: 'PT. Pertamina Training and Consulting',
+      period: ' August 2026 — Present',
       description:
         'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.',
     },
