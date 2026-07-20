@@ -75,15 +75,10 @@ export const aboutData = {
 export const resumeData = {
   education: [
     {
-      title: 'University of California, Berkeley',
-      period: '2013 — 2017',
+      title: 'SMK Telkom Malang',
+      period: '2023 — 2026',
       description:
         'Studied Computer Science with a focus on web technologies and software engineering principles.',
-    },
-    {
-      title: 'Frontend Development Bootcamp',
-      period: '2017 — 2018',
-      description: 'Intensive program covering modern JavaScript frameworks, responsive design, and UX principles.',
     },
   ],
   experience: [
