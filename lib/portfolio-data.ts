@@ -7,9 +7,9 @@ export const profileData = {
   birthday: 'Desember 17, 2007',
   location: 'Surabaya, Indonesia',
   social: {
-    github: 'https://github.com/johndoe',
+    github: 'https://github.com/Muhammad-Abdullo',
     linkedin: 'https://linkedin.com/in/muhammadabdulloh-id/', 
-    instagram: 'https://instagram.com/johndoe',
+    instagram: 'https://www.instagram.com/moehmmdxy?igsh=MW12aWtjcGtxeXFobA%3D%3D&utm_source=qr',
   },
 }
 
