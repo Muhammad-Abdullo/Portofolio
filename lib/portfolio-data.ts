@@ -59,7 +59,7 @@ export const resumeData = {
       title: 'SMK Telkom Malang',
       period: '2023 — 2026',
       description:
-        'Studied Computer Science with a focus on web technologies and software engineering principles.',
+        'Students majoring in Computer and Network Engineering (TKJ) study computer networking, system administration, device installation, troubleshooting, and cloud technology to prepare for the workforce.',
     },
   ],
   experience: [
@@ -67,13 +67,13 @@ export const resumeData = {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
       description:
-        'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.',
+        'Responsible for the maintenance and troubleshooting of IT equipment in Pertamina gas station operational areas, including computers, networks, printers, POS systems, CCTV, and other supporting devices. Tasks include installation, configuration, and routine maintenance, as well as providing technical support to users to ensure all operational systems run stably and optimally.',
     },
     {
       title: 'PT. Telkomsel',
       period: 'November 2025 — April 2026',
       description:
-        'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create seamless user experiences.',
+        'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.',
     },
   ],
   skills: [
