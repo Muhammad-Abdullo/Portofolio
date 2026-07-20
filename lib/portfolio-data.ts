@@ -15,8 +15,8 @@ export const profileData = {
 
 export const aboutData = {
   description: [
-    "I'm a Full-Stack Developer from San Francisco, California, specializing in web development and creating innovative digital solutions. I enjoy turning complex problems into simple, beautiful and intuitive applications.",
-    "My job is to build your website or application so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I've worked with various technologies including React, Next.js, Node.js, and modern cloud platforms.",
+    "Hello! I am Muhammad Abdulloh, an IT professional with a background in Computer Engineering and Networking. I have a keen interest in Network Engineering, IT Support, and Cloud Computing. I enjoy the process of building, managing, and optimizing network infrastructure to ensure it operates stably, securely, and efficiently.",
+    "I believe that learning never stops. Therefore, I continuously develop my technical skills, keep up with technological advancements, and seek new experiences to become a professional capable of delivering the best solutions for every challenge in the IT world..",
   ],
   services: [
     {
