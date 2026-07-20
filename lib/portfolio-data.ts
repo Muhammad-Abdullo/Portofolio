@@ -8,7 +8,7 @@ export const profileData = {
   location: 'Surabaya, Indonesia',
   social: {
     github: 'https://github.com/johndoe',
-    twitter: 'https://twitter.com/johndoe',
+    linkedin: 'https://linkedin.com/in/muhammad-abdulloh', // Twitter sudah diganti ke LinkedIn di sini
     instagram: 'https://instagram.com/johndoe',
   },
 }
