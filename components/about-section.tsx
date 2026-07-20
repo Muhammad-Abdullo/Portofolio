@@ -1,106 +1,27 @@
-import { PenTool, Code, Smartphone, Zap, Server, Activity, Cloud, Layers } from 'lucide-react'
-import { aboutData } from '@/lib/portfolio-data'
-
-const iconMap = {
-  Code,
-  Zap,
-  Smartphone,
-  PenTool,
-  Server,
-  Activity,
-  Cloud,
-  Layers
-}
-
-interface AboutSectionProps {
-  data?: typeof aboutData
-}
-
-export function AboutSection({ data = aboutData }: AboutSectionProps) {
-  const testimonials = data?.testimonials || []
-
-  return (
-    <div className="space-y-8 md:space-y-10">
-      {/* About Me */}
-      <div>
-        <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">About Me</h2>
-        <div className="w-10 h-1 bg-accent rounded-full mb-6" />
-        <div className="space-y-4 text-sm md:text-base text-muted-foreground leading-relaxed">
-          {data?.description?.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
-        </div>
-      </div>
-
-      {/* What I'm Doing */}
-      <div>
-        <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">What I'm Doing</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-          {data?.services?.map((service, index) => {
-            const IconComponent = iconMap[service.icon as keyof typeof iconMap] || Code
-            return (
-              <div
-                key={index}
-                className="flex gap-3 md:gap-4 p-4 md:p-6 bg-secondary rounded-xl md:rounded-2xl border border-border hover:border-accent transition-colors"
-              >
-                <div className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
-                  <IconComponent className="w-full h-full text-accent" strokeWidth={1.5} />
-                </div>
-                <div>
-                  <h4 className="text-base md:text-lg font-semibold text-foreground mb-2">{service.title}</h4>
-                  <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">{service.description}</p>
-                </div>
-              </div>
-            )
-          })}
-        </div>
-      </div>
-
-      {/* Testimonials with Marquee Animation */}
-      {testimonials.length > 0 && (
-        <div>
-          <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Testimonials</h3>
-          <div className="relative overflow-hidden">
-            <div className="flex gap-3 md:gap-4 animate-marquee">
-              {[...testimonials, ...testimonials].map((testimonial, index) => (
-                <div key={index} className="flex-shrink-0 w-72 md:w-80 p-4 md:p-6 bg-secondary rounded-xl md:rounded-2xl border border-border">
-                  <div className="flex items-center gap-3 md:gap-4 mb-3 md:mb-4">
-                    <img
-                      src={testimonial.avatar || "/placeholder.svg"}
-                      alt={testimonial.name}
-                      className="w-12 h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl object-cover"
-                    />
-                    <h4 className="text-base md:text-lg font-semibold text-foreground">{testimonial.name}</h4>
-                  </div>
-                  <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">{testimonial.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Bagian Clients diubah menjadi Tools & Bisa di-scroll manual */}
+{/* Bagian Tools dengan Logo dan Teks Nama */}
       <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">Tools</h3>
         <div className="relative w-full">
-          {/* Menghapus class animasi dan menambahkan fitur scroll manual yang mulus */}
           <div className="flex gap-4 md:gap-6 overflow-x-auto pb-4 pt-2 scrollbar-thin scroll-smooth snap-x snap-mandatory">
             {(data?.clients || []).map((client, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-32 h-20 md:w-40 md:h-24 bg-secondary rounded-xl md:rounded-2xl border border-border flex items-center justify-center p-4 md:p-6 hover:border-accent transition-colors snap-card"
+                className="flex-shrink-0 w-32 h-28 md:w-40 md:h-32 bg-secondary rounded-xl md:rounded-2xl border border-border flex flex-col items-center justify-center p-3 md:p-4 hover:border-accent transition-colors snap-card gap-2"
               >
-                <img
-                  src={client.logo || "/placeholder.svg"}
-                  alt={client.name}
-                  className="w-full h-full object-contain opacity-70 hover:opacity-100 transition-opacity"
-                />
+                {/* Pembungkus gambar agar ukurannya tetap proporsional */}
+                <div className="w-full h-12 md:h-16 flex items-center justify-center">
+                  <img
+                    src={client.logo || "/placeholder.svg"}
+                    alt={client.name}
+                    className="max-w-full max-h-full object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  />
+                </div>
+                {/* Teks Nama Tool di bawah foto */}
+                <span className="text-xs md:text-sm font-medium text-muted-foreground hover:text-foreground transition-colors text-center truncate w-full">
+                  {client.name}
+                </span>
               </div>
             ))}
           </div>
         </div>
       </div>
-    </div>
-  )
-}
