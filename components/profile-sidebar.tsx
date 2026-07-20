@@ -1,5 +1,5 @@
 import { Mail, Phone, Calendar, MapPin } from 'lucide-react'
-import { Github, Linkedin, Instagram } from 'lucide-react' // Diubah dari Twitter ke Linkedin
+import { Github, Linkedin, Instagram } from 'lucide-react'
 import { profileData } from '@/lib/portfolio-data'
 
 interface ProfileSidebarProps {
@@ -36,6 +36,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
 
       {/* Contact Info */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-3 md:gap-4">
+        {/* Email */}
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
             <Mail className="w-5 h-5 text-accent" />
@@ -51,7 +52,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           </div>
         </div>
 
-        {/* Bagian Phone diubah menjadi Tautan Chat WhatsApp */}
+        {/* Phone / WhatsApp */}
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
             <Phone className="w-5 h-5 text-accent" />
@@ -69,6 +70,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           </div>
         </div>
 
+        {/* Birthday */}
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
             <Calendar className="w-5 h-5 text-accent" />
@@ -79,6 +81,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           </div>
         </div>
 
+        {/* Location */}
         <div className="flex items-start gap-3">
           <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
             <MapPin className="w-5 h-5 text-accent" />
@@ -92,6 +95,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
 
       {/* Social Links */}
       <div className="flex items-center justify-center gap-4 mt-4 md:mt-6 pt-4 md:pt-6 border-t border-border">
+        {/* GitHub */}
         <a
           href={data.social.github}
           target="_blank"
@@ -102,7 +106,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           <Github className="w-5 h-5" />
         </a>
         
-        {/* Ikon kedua sudah diubah ke LinkedIn di bawah ini */}
+        {/* LinkedIn */}
         <a
           href={data.social.linkedin} 
           target="_blank"
@@ -113,6 +117,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
           <Linkedin className="w-5 h-5" />
         </a>
 
+        {/* Instagram */}
         <a
           href={data.social.instagram}
           target="_blank"
