@@ -89,8 +89,8 @@ export const resumeData = {
         'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.',
     },
     {
-      title: 'Full-Stack Developer',
-      period: '2018 — 2020',
+      title: 'PT. Telkomsel',
+      period: 'November 2025 — April 2026',
       description:
         'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create seamless user experiences.',
     },
