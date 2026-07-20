@@ -40,14 +40,17 @@ export const aboutData = {
       description: 'Configuring and hypervising virtual machines and containers to maximize hardware efficiency and ensure high system availability.',
     },
   ],
-  testimonials: [], // Ditambahkan kosong agar sistem tidak error dan fiturnya hilang
+  testimonials: [], 
   clients: [
-    { name: 'TechCorp', logo: '/tech-company-logo.jpg' },
-    { name: 'StartupHub', logo: '/startup-logo.png' },
-    { name: 'DesignStudio', logo: '/design-agency-logo.png' },
-    { name: 'CodeLabs', logo: '/software-company-logo.png' },
-    { name: 'WebSolutions', logo: '/web-agency-logo.jpg' },
-    { name: 'AppMakers', logo: '/app-development-logo.jpg' },
+    { name: 'Aws', logo: '/tech-company-logo.jpg' },
+    { name: 'Pyhton', logo: '/startup-logo.png' },
+    { name: 'VisualCode', logo: '/design-agency-logo.png' },
+    { name: 'CentOS', logo: '/software-company-logo.png' },
+    { name: 'Github', logo: '/web-agency-logo.jpg' },
+    { name: 'VirtualBox', logo: '/app-development-logo.jpg' },
+    { name: 'Figma', logo: '/web-agency-logo.jpg' },
+    { name: 'Microsoft', logo: '/app-development-logo.jpg' },
+    { name: 'Winbox', logo: '/web-agency-logo.jpg' },
   ],
 }
 
