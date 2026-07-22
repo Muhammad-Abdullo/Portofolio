@@ -226,16 +226,6 @@ export const blogData = {
       tags: ['CSS', 'Layout', 'Frontend'],
       slug: 'mastering-css-grid-flexbox',
     },
-    {
-      title: 'Mastering CSS Grid and Flexbox Layouts',
-      category: 'Design',
-      date: 'Feb 5, 2024',
-      readTime: '7 min',
-      image: '/ongoin.jpg',
-      excerpt: 'Modern CSS layout techniques with practical examples.',
-      tags: ['CSS', 'Layout', 'Frontend'],
-      slug: 'mastering-css-grid-flexbox',
-    },
   ],
 }
 
