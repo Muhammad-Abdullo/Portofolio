@@ -70,11 +70,13 @@ export const resumeData = {
         'Responsible for the maintenance and troubleshooting of IT equipment in Pertamina gas station operational areas, including computers, networks, printers, POS systems, CCTV, and other supporting devices. Tasks include installation, configuration, and routine maintenance, as well as providing technical support to users to ensure all operational systems run stably and optimally.',
     },
     {
-      title: 'PT. Telkomsel',
-      period: 'November 2025 — April 2026',
-      Location: 'Surabaya',
+      role: 'IT Support / Network Support',
+      company: 'PT. Pertamina Training and Consulting',
+      type: 'Contract',
+      period: 'August 2026 — Present',
+      location: 'Surabaya, East Java, Indonesia · On-site',
       description:
-        'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.',
+        'Responsible for the maintenance and troubleshooting of IT equipment in Pertamina gas station operational areas, including computers, networks, printers, POS systems, CCTV, and other supporting devices. Tasks include installation, configuration, and routine maintenance, as well as providing technical support to users to ensure all operational systems run stably and optimally.',
     },
   ],
   skills: [
