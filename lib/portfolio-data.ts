@@ -76,12 +76,6 @@ export const resumeData = {
         'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.',
     },
   ],
-  skills: [
-    { name: 'Web Design', level: 90 },
-    { name: 'Frontend Development', level: 95 },
-    { name: 'Backend Development', level: 85 },
-    { name: 'Database Design', level: 80 },
-  ],
 }
 
 export const portfolioData = {
