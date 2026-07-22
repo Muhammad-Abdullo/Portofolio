@@ -20,12 +20,12 @@ import {
 export default function Home() {
   const [activeSection, setActiveSection] = useState('about')
 
-  // Daftar item navigasi dengan id dan label terpisah
+
   const navItems = [
     { id: 'about', label: 'About' },
     { id: 'resume', label: 'Resume' },
     { id: 'portfolio', label: 'Portfolio' },
-    { id: 'blog', label: 'Certificate' }, // ID tetap 'blog' agar tidak merusak logika, label tampil 'Certificate'
+    { id: 'blog', label: 'Certificate' }, 
     { id: 'contact', label: 'Contact' },
   ]
 
