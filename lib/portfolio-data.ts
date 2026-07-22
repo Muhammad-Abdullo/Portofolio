@@ -79,7 +79,7 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'Engineering', 'Projects', 'Leadership'],
+  categories: ['all', 'Engineering', 'Creative', 'Leadership'],
   projects: [
     {
       title: 'ON GOING',
@@ -110,7 +110,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Projects',
+      category: 'Creative',
       image: '/ongoin.jpg',
       description: 'Analytics dashboard with data visualization',
       tech: ['React', 'D3.js', 'Express'],
@@ -119,7 +119,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Projects',
+      category: 'Creative',
       image: '/ongoin.jpg',
       description: 'Secure mobile banking application',
       tech: ['React Native', 'Node.js', 'MongoDB'],
