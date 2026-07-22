@@ -171,7 +171,6 @@ export const blogData = {
       title: 'TOEFL iBT',
       category: 'Creative',
       date: 'Mar 15, 2024',
-      readTime: '8 min',
       image: '/Toefl-cert.png',
       excerpt: 'Deep dive into Next.js 15 features and App Router enhancements.',
       tags: ['Next.js', 'React', 'Web Development'],
