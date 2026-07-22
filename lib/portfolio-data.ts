@@ -82,7 +82,7 @@ export const portfolioData = {
   categories: ['all', 'web design', 'applications', 'web development'],
   projects: [
     {
-      title: 'E-Commerce Platform',
+      title: 'ON GOING',
       category: 'web development',
       image: '/ongoin.jpg',
       description: 'Full-stack e-commerce solution with payment integration',
@@ -91,7 +91,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/ecommerce',
     },
     {
-      title: 'Task Management App',
+      title: 'ON GOING',
       category: 'applications',
       image: '/ongoin.jpg',
       description: 'Collaborative task manager with real-time updates',
@@ -100,7 +100,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/taskmanager',
     },
     {
-      title: 'Portfolio Website',
+      title: 'ON GOING',
       category: 'web design',
       image: '/ongoin.jpg',
       description: 'Modern portfolio design for creative professionals',
@@ -109,7 +109,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/portfolio',
     },
     {
-      title: 'Social Media Dashboard',
+      title: 'ON GOING',
       category: 'web development',
       image: '/ongoin.jpg',
       description: 'Analytics dashboard with data visualization',
@@ -118,7 +118,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/dashboard',
     },
     {
-      title: 'Mobile Banking App',
+      title: 'ON GOING',
       category: 'applications',
       image: '/ongoin.jpg',
       description: 'Secure mobile banking application',
@@ -127,7 +127,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/banking',
     },
     {
-      title: 'Restaurant Website',
+      title: 'ON GOING',
       category: 'web design',
       image: '/ongoin.jpg',
       description: 'Elegant restaurant website with online ordering',
