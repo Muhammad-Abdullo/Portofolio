@@ -173,7 +173,6 @@ export const blogData = {
       date: 'Mar 15, 2024',
       image: '/Toefl-cert.png',
       excerpt: 'Deep dive into Next.js 15 features and App Router enhancements.',
-      tags: ['Next.js', 'React', 'Web Development'],
       slug: 'building-modern-web-apps-nextjs-15',
     },
     {
