@@ -169,7 +169,7 @@ export const blogData = {
   posts: [
     {
       title: 'TOEFL iBT',
-      category: 'Development',
+      category: 'Creative',
       date: 'Mar 15, 2024',
       readTime: '8 min',
       image: '/ongoin.jpg',
@@ -179,7 +179,7 @@ export const blogData = {
     },
     {
       title: 'English Discoveries',
-      category: 'Architecture',
+      category: 'Creative',
       date: 'Mar 8, 2024',
       readTime: '12 min',
       image: '/ongoin.jpg',
@@ -189,7 +189,7 @@ export const blogData = {
     },
     {
       title: 'Data Analyst',
-      category: 'Design',
+      category: 'Engineering',
       date: 'Feb 28, 2024',
       readTime: '6 min',
       image: '/ongoin.jpg',
@@ -199,7 +199,7 @@ export const blogData = {
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
-      category: 'Development',
+      category: 'Engineering',
       date: 'Feb 20, 2024',
       readTime: '10 min',
       image: '/ongoin.jpg',
@@ -209,7 +209,7 @@ export const blogData = {
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
-      category: 'Development',
+      category: 'Engineering',
       date: 'Feb 12, 2024',
       readTime: '9 min',
       image: '/ongoin.jpg',
@@ -219,7 +219,7 @@ export const blogData = {
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
-      category: 'Design',
+      category: 'Engineering',
       date: 'Feb 5, 2024',
       readTime: '7 min',
       image: '/ongoin.jpg',
@@ -229,7 +229,7 @@ export const blogData = {
     },
     {
       title: 'UKBI',
-      category: 'Design',
+      category: 'Creative',
       date: 'Feb 5, 2024',
       readTime: '7 min',
       image: '/ongoin.jpg',
@@ -239,7 +239,7 @@ export const blogData = {
     },
     {
       title: 'Capital Market School',
-      category: 'Design',
+      category: 'Creative',
       date: 'Feb 5, 2024',
       readTime: '7 min',
       image: '/ongoin.jpg',
