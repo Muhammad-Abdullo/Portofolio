@@ -141,6 +141,33 @@ export const portfolioData = {
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/johndoe/restaurant',
     },
+    {
+      title: 'Restaurant Website',
+      category: 'web design',
+      image: '/ongoin.jpg',
+      description: 'Elegant restaurant website with online ordering',
+      tech: ['Next.js', 'Sanity CMS', 'Stripe'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/restaurant',
+    },
+    {
+      title: 'Restaurant Website',
+      category: 'web design',
+      image: '/ongoin.jpg',
+      description: 'Elegant restaurant website with online ordering',
+      tech: ['Next.js', 'Sanity CMS', 'Stripe'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/restaurant',
+    },
+    {
+      title: 'Restaurant Website',
+      category: 'web design',
+      image: '/ongoin.jpg',
+      description: 'Elegant restaurant website with online ordering',
+      tech: ['Next.js', 'Sanity CMS', 'Stripe'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/restaurant',
+    },
   ],
 }
 
