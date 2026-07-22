@@ -147,7 +147,7 @@ export const portfolioData = {
 export const blogData = {
   posts: [
     {
-      title: 'Building Modern Web Applications with Next.js 15',
+      title: 'TOEFL iBT',
       category: 'Development',
       date: 'Mar 15, 2024',
       readTime: '8 min',
@@ -157,7 +157,7 @@ export const blogData = {
       slug: 'building-modern-web-apps-nextjs-15',
     },
     {
-      title: 'Microservices Architecture: A Complete Guide',
+      title: 'English Discoveries',
       category: 'Architecture',
       date: 'Mar 8, 2024',
       readTime: '12 min',
@@ -167,7 +167,7 @@ export const blogData = {
       slug: 'microservices-architecture-guide',
     },
     {
-      title: 'The Art of UI/UX: Creating Delightful Experiences',
+      title: 'Data Analyst',
       category: 'Design',
       date: 'Feb 28, 2024',
       readTime: '6 min',
@@ -177,7 +177,7 @@ export const blogData = {
       slug: 'art-of-uiux-delightful-experiences',
     },
     {
-      title: 'TypeScript Best Practices for Large-Scale Applications',
+      title: 'Level Up Test Computer And Network Engineering Skills',
       category: 'Development',
       date: 'Feb 20, 2024',
       readTime: '10 min',
@@ -187,7 +187,7 @@ export const blogData = {
       slug: 'typescript-best-practices',
     },
     {
-      title: 'Building Real-Time Applications with WebSockets',
+      title: 'Level Up Test Computer And Network Engineering Skills',
       category: 'Development',
       date: 'Feb 12, 2024',
       readTime: '9 min',
@@ -197,7 +197,7 @@ export const blogData = {
       slug: 'realtime-apps-websockets',
     },
     {
-      title: 'Mastering CSS Grid and Flexbox Layouts',
+      title: 'Level Up Test Computer And Network Engineering Skills',
       category: 'Design',
       date: 'Feb 5, 2024',
       readTime: '7 min',
@@ -207,7 +207,7 @@ export const blogData = {
       slug: 'mastering-css-grid-flexbox',
     },
     {
-      title: 'Mastering CSS Grid and Flexbox Layouts',
+      title: 'UKBI',
       category: 'Design',
       date: 'Feb 5, 2024',
       readTime: '7 min',
@@ -217,7 +217,7 @@ export const blogData = {
       slug: 'mastering-css-grid-flexbox',
     },
     {
-      title: 'Mastering CSS Grid and Flexbox Layouts',
+      title: 'Capital Market School',
       category: 'Design',
       date: 'Feb 5, 2024',
       readTime: '7 min',
