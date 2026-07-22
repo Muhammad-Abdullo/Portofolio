@@ -183,7 +183,6 @@ export const blogData = {
       readTime: '12 min',
       image: '/ED.png',
       excerpt: 'Design scalable microservices with real-world examples.',
-      tags: ['Architecture', 'Backend', 'DevOps'],
       slug: 'microservices-architecture-guide',
     },
     {
