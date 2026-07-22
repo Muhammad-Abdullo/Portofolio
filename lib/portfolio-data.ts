@@ -90,7 +90,7 @@ export const portfolioData = {
     {
       title: 'E-Commerce Platform',
       category: 'web development',
-      image: '/modern-ecommerce-website.png',
+      image: '/ongoin.jpg',
       description: 'Full-stack e-commerce solution with payment integration',
       tech: ['Next.js', 'Node.js', 'PostgreSQL'],
       liveUrl: 'https://example.com',
@@ -99,7 +99,7 @@ export const portfolioData = {
     {
       title: 'Task Management App',
       category: 'applications',
-      image: '/task-management-interface.png',
+      image: '/ongoin.jpg',
       description: 'Collaborative task manager with real-time updates',
       tech: ['React', 'Firebase', 'TypeScript'],
       liveUrl: 'https://example.com',
@@ -108,7 +108,7 @@ export const portfolioData = {
     {
       title: 'Portfolio Website',
       category: 'web design',
-      image: '/minimalist-portfolio-design.jpg',
+      image: '/ongoin.jpg',
       description: 'Modern portfolio design for creative professionals',
       tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
       liveUrl: 'https://example.com',
@@ -117,7 +117,7 @@ export const portfolioData = {
     {
       title: 'Social Media Dashboard',
       category: 'web development',
-      image: '/analytics-dashboard.png',
+      image: '/ongoin.jpg',
       description: 'Analytics dashboard with data visualization',
       tech: ['React', 'D3.js', 'Express'],
       liveUrl: 'https://example.com',
@@ -126,7 +126,7 @@ export const portfolioData = {
     {
       title: 'Mobile Banking App',
       category: 'applications',
-      image: '/banking-app-interface.png',
+      image: '/ongoin.jpg',
       description: 'Secure mobile banking application',
       tech: ['React Native', 'Node.js', 'MongoDB'],
       liveUrl: 'https://example.com',
@@ -135,7 +135,7 @@ export const portfolioData = {
     {
       title: 'Restaurant Website',
       category: 'web design',
-      image: '/restaurant-website-design.png',
+      image: '/ongoin.jpg',
       description: 'Elegant restaurant website with online ordering',
       tech: ['Next.js', 'Sanity CMS', 'Stripe'],
       liveUrl: 'https://example.com',
