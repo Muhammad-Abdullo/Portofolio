@@ -172,7 +172,7 @@ export const blogData = {
       category: 'Creative',
       date: 'Mar 15, 2024',
       image: '/Toefl-cert.png',
-      excerpt: 'Deep dive into Next.js 15 features and App Router enhancements.',
+      excerpt: '',
     },
     {
       title: 'English Discoveries',
@@ -180,7 +180,7 @@ export const blogData = {
       date: 'Mar 8, 2024',
       readTime: '12 min',
       image: '/ED.png',
-      excerpt: 'Design scalable microservices with real-world examples.',
+      excerpt: '',
     },
     {
       title: 'Data Analyst',
@@ -188,7 +188,7 @@ export const blogData = {
       date: 'Feb 28, 2024',
       readTime: '6 min',
       image: '/certiport.png',
-      excerpt: 'Principles of exceptional UI/UX design for interfaces users love.',
+      excerpt: '',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -196,7 +196,7 @@ export const blogData = {
       date: 'Feb 20, 2024',
       readTime: '10 min',
       image: '/jh.png',
-      excerpt: 'Master TypeScript patterns for maintainable, type-safe code.',
+      excerpt: '',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -204,7 +204,7 @@ export const blogData = {
       date: 'Feb 12, 2024',
       readTime: '9 min',
       image: '/n-to-n.png',
-      excerpt: 'Implement real-time features using WebSockets and modern frameworks.',
+      excerpt: '',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -212,7 +212,7 @@ export const blogData = {
       date: 'Feb 5, 2024',
       readTime: '7 min',
       image: '/ukl.png',
-      excerpt: 'Modern CSS layout techniques with practical examples.',
+      excerpt: '',
     },
     {
       title: 'UKBI',
@@ -220,7 +220,7 @@ export const blogData = {
       date: 'Feb 5, 2024',
       readTime: '7 min',
       image: '/ukbi.png',
-      excerpt: 'Modern CSS layout techniques with practical examples.',
+      excerpt: '',
     },
     {
       title: 'Capital Market School',
@@ -228,7 +228,7 @@ export const blogData = {
       date: 'Feb 5, 2024',
       readTime: '7 min',
       image: '/spm.png',
-      excerpt: 'Modern CSS layout techniques with practical examples.',
+      excerpt: '',
     },
   ],
 }
