@@ -59,7 +59,7 @@ export const resumeData = {
       title: 'SMK Telkom Malang',
       period: '2023 — 2026',
       description:
-        'Students majoring in Computer and Network Engineering (TKJ) study computer networking, system administration, device installation, troubleshooting, and cloud technology to prepare for the workforce.',
+        'Students majoring in Computer and Network Engineering study computer networking, system administration, device installation, troubleshooting, and cloud technology to prepare for the workforce.',
     },
   ],
   experience: [
@@ -79,11 +79,11 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'web design', 'applications', 'web development'],
+  categories: ['all', 'Engineer', 'Project', 'Leadhership'],
   projects: [
     {
       title: 'ON GOING',
-      category: 'web development',
+      category: 'Engineer',
       image: '/ongoin.jpg',
       description: 'Full-stack e-commerce solution with payment integration',
       tech: ['Next.js', 'Node.js', 'PostgreSQL'],
@@ -92,7 +92,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'applications',
+      category: 'Engineer',
       image: '/ongoin.jpg',
       description: 'Collaborative task manager with real-time updates',
       tech: ['React', 'Firebase', 'TypeScript'],
@@ -101,7 +101,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'web design',
+      category: 'Engineer',
       image: '/ongoin.jpg',
       description: 'Modern portfolio design for creative professionals',
       tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
@@ -110,7 +110,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'web development',
+      category: 'Project',
       image: '/ongoin.jpg',
       description: 'Analytics dashboard with data visualization',
       tech: ['React', 'D3.js', 'Express'],
@@ -119,7 +119,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'applications',
+      category: 'Project',
       image: '/ongoin.jpg',
       description: 'Secure mobile banking application',
       tech: ['React Native', 'Node.js', 'MongoDB'],
@@ -128,7 +128,34 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'web design',
+      category: 'Project',
+      image: '/ongoin.jpg',
+      description: 'Elegant restaurant website with online ordering',
+      tech: ['Next.js', 'Sanity CMS', 'Stripe'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/restaurant',
+    },
+    {
+      title: 'ON GOING',
+      category: 'Leadership',
+      image: '/ongoin.jpg',
+      description: 'Analytics dashboard with data visualization',
+      tech: ['React', 'D3.js', 'Express'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/dashboard',
+    },
+    {
+      title: 'ON GOING',
+      category: 'Leadership',
+      image: '/ongoin.jpg',
+      description: 'Secure mobile banking application',
+      tech: ['React Native', 'Node.js', 'MongoDB'],
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/johndoe/banking',
+    },
+    {
+      title: 'ON GOING',
+      category: 'Leadership',
       image: '/ongoin.jpg',
       description: 'Elegant restaurant website with online ordering',
       tech: ['Next.js', 'Sanity CMS', 'Stripe'],
