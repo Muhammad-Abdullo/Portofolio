@@ -181,8 +181,6 @@ export const blogData = {
       readTime: '12 min',
       image: '/ED.png',
       excerpt: 'Design scalable microservices with real-world examples.',
-      tags: ['Architecture', 'Backend', 'DevOps'],
-      slug: 'microservices-architecture-guide',
     },
     {
       title: 'Data Analyst',
@@ -191,8 +189,6 @@ export const blogData = {
       readTime: '6 min',
       image: '/certiport.png',
       excerpt: 'Principles of exceptional UI/UX design for interfaces users love.',
-      tags: ['Design', 'UI/UX', 'Frontend'],
-      slug: 'art-of-uiux-delightful-experiences',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -201,8 +197,6 @@ export const blogData = {
       readTime: '10 min',
       image: '/jh.png',
       excerpt: 'Master TypeScript patterns for maintainable, type-safe code.',
-      tags: ['TypeScript', 'JavaScript', 'Best Practices'],
-      slug: 'typescript-best-practices',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -211,8 +205,6 @@ export const blogData = {
       readTime: '9 min',
       image: '/n-to-n.png',
       excerpt: 'Implement real-time features using WebSockets and modern frameworks.',
-      tags: ['WebSockets', 'Real-time', 'Backend'],
-      slug: 'realtime-apps-websockets',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -221,8 +213,6 @@ export const blogData = {
       readTime: '7 min',
       image: '/ukl.png',
       excerpt: 'Modern CSS layout techniques with practical examples.',
-      tags: ['CSS', 'Layout', 'Frontend'],
-      slug: 'mastering-css-grid-flexbox',
     },
     {
       title: 'UKBI',
@@ -231,8 +221,6 @@ export const blogData = {
       readTime: '7 min',
       image: '/ukbi.png',
       excerpt: 'Modern CSS layout techniques with practical examples.',
-      tags: ['CSS', 'Layout', 'Frontend'],
-      slug: 'mastering-css-grid-flexbox',
     },
     {
       title: 'Capital Market School',
@@ -241,8 +229,6 @@ export const blogData = {
       readTime: '7 min',
       image: '/spm.png',
       excerpt: 'Modern CSS layout techniques with practical examples.',
-      tags: ['CSS', 'Layout', 'Frontend'],
-      slug: 'mastering-css-grid-flexbox',
     },
   ],
 }
