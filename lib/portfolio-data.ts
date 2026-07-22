@@ -79,11 +79,11 @@ export const resumeData = {
 }
 
 export const portfolioData = {
-  categories: ['all', 'Engineer', 'Project', 'Leadhership'],
+  categories: ['all', 'Engineering', 'Projects', 'Leadership'],
   projects: [
     {
       title: 'ON GOING',
-      category: 'Engineer',
+      category: 'Engineering',
       image: '/ongoin.jpg',
       description: 'Full-stack e-commerce solution with payment integration',
       tech: ['Next.js', 'Node.js', 'PostgreSQL'],
@@ -92,7 +92,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Engineer',
+      category: 'Engineering',
       image: '/ongoin.jpg',
       description: 'Collaborative task manager with real-time updates',
       tech: ['React', 'Firebase', 'TypeScript'],
@@ -101,7 +101,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Engineer',
+      category: 'Engineering',
       image: '/ongoin.jpg',
       description: 'Modern portfolio design for creative professionals',
       tech: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
@@ -110,7 +110,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Project',
+      category: 'Projects',
       image: '/ongoin.jpg',
       description: 'Analytics dashboard with data visualization',
       tech: ['React', 'D3.js', 'Express'],
@@ -119,7 +119,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Project',
+      category: 'Projects',
       image: '/ongoin.jpg',
       description: 'Secure mobile banking application',
       tech: ['React Native', 'Node.js', 'MongoDB'],
@@ -128,7 +128,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Project',
+      category: 'Projects',
       image: '/ongoin.jpg',
       description: 'Elegant restaurant website with online ordering',
       tech: ['Next.js', 'Sanity CMS', 'Stripe'],
