@@ -1,4 +1,4 @@
-import { Calendar, ArrowRight } from 'lucide-react'
+import { Calendar } from 'lucide-react'
 import { blogData } from '@/lib/portfolio-data'
 
 interface BlogSectionProps {
@@ -41,28 +41,11 @@ export function BlogSection({ data = blogData }: BlogSectionProps) {
               <h3 className="text-base md:text-lg font-semibold text-foreground mb-3 leading-tight group-hover:text-accent transition-colors">
                 {post.title}
               </h3>
-              <p className="text-xs md:text-sm text-muted-foreground leading-relaxed mb-4">{post.excerpt}</p>
-              
-              {/* Tags */}
-              <div className="flex flex-wrap gap-2 mb-4">
-                {post.tags.map((tag, i) => (
-                  <span
-                    key={i}
-                    className="text-xs px-2 py-0.5 md:py-1 bg-background rounded text-muted-foreground"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
+              <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
+                {post.excerpt}
+              </p>
 
-              {/* Read More Link */}
-              <a
-                href={`/blog/${post.slug}`}
-                className="flex items-center gap-2 text-xs md:text-sm text-accent hover:gap-3 transition-all font-medium"
-              >
-                Read More
-                <ArrowRight className="w-3.5 h-3.5 md:w-4 md:h-4" />
-              </a>
+              {/* Bagian Tags (3 kotak) dan tombol Read More sudah dihapus */}
             </div>
           </article>
         ))}
