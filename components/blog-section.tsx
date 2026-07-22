@@ -44,8 +44,7 @@ export function BlogSection({ data = blogData }: BlogSectionProps) {
               <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
                 {post.excerpt}
               </p>
-
-              {/* Bagian Tags (3 kotak) dan tombol Read More sudah dihapus */}
+              
             </div>
           </article>
         ))}
