@@ -72,6 +72,7 @@ export const resumeData = {
     {
       title: 'PT. Telkomsel',
       period: 'November 2025 — April 2026',
+      Location: 'Surabaya',
       description:
         'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.',
     },
