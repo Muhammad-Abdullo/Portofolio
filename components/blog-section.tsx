@@ -43,8 +43,7 @@ export function BlogSection({ data = blogData }: BlogSectionProps) {
               </h3>
               <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
                 {post.excerpt}
-              </p>
-              
+              </p>   
             </div>
           </article>
         ))}
