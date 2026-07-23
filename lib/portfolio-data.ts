@@ -67,7 +67,7 @@ export const resumeData = {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
       description:
-        'Responsible for the maintenance and troubleshooting of IT equipment in Pertamina gas station operational areas, including computers, networks, printers, POS systems, CCTV, and other supporting devices. Tasks include installation, configuration, and routine maintenance, as well as providing technical support to users to ensure all operational systems run stably and optimally.',
+        '',
     },
     {
       title: 'PT. Telkomsel',
