@@ -67,7 +67,7 @@ export const resumeData = {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
       description:
-        'as an On Site TAD Engineer for PT Pertamina Patra Niaga on the PPN Jatimbalinus Regional Project.',
+        'As an On Site TAD Engineer for PT Pertamina Patra Niaga on the PPN Jatimbalinus Regional Project.',
     },
     {
       title: 'PT. Telkomsel',
