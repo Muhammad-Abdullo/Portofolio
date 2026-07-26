@@ -172,7 +172,7 @@ export const blogData = {
       category: 'Creative',
       date: 'Nov, 2025',
       image: '/Toefl-cert.png',
-      excerpt: '',
+      excerpt: 'Sertifikat standar internasional pengujian kemahiran bahasa Inggris akademik.',
     },
     {
       title: 'English Discoveries',
@@ -180,7 +180,7 @@ export const blogData = {
       date: 'June, 2026',
       readTime: '12 min',
       image: '/ED.png',
-      excerpt: '',
+      excerpt: 'Sertifikat kompetensi komunikasi bahasa Inggris tingkat internasional.',
     },
     {
       title: 'Data Analyst',
@@ -188,7 +188,7 @@ export const blogData = {
       date: 'Dec, 2025',
       readTime: '6 min',
       image: '/certiport.png',
-      excerpt: '',
+      excerpt: 'Sertifikasi standar global dalam pengolahan, pemodelan, dan analisis data bisnis oleh Certiport.',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -220,7 +220,7 @@ export const blogData = {
       date: 'Sep, 2024',
       readTime: '7 min',
       image: '/ukbi.png',
-      excerpt: '',
+      excerpt: 'Sertifikat kompetensi bahasa Indonesia standar Kemendikbudristek.',
     },
     {
       title: 'Capital Market School',
@@ -228,7 +228,7 @@ export const blogData = {
       date: 'Feb, 2026',
       readTime: '7 min',
       image: '/spm.png',
-      excerpt: '',
+      excerpt: 'Pelatihan resmi literasi keuangan dan analisis investasi saham dari IDX Surabaya.',
     },
   ],
 }
