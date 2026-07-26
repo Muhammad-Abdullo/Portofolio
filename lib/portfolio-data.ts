@@ -172,7 +172,7 @@ export const blogData = {
       category: 'Creative',
       date: 'Nov, 2025',
       image: '/Toefl-cert.png',
-      excerpt: 'Sertifikat standar internasional pengujian kemahiran bahasa Inggris akademik.',
+      excerpt: 'An international standard certificate for academic English proficiency testing.',
     },
     {
       title: 'English Discoveries',
@@ -180,7 +180,7 @@ export const blogData = {
       date: 'June, 2026',
       readTime: '12 min',
       image: '/ED.png',
-      excerpt: 'Sertifikat kompetensi komunikasi bahasa Inggris tingkat internasional.',
+      excerpt: 'International-level English communication proficiency certificate.',
     },
     {
       title: 'Data Analyst',
@@ -188,7 +188,7 @@ export const blogData = {
       date: 'Dec, 2025',
       readTime: '6 min',
       image: '/certiport.png',
-      excerpt: 'Sertifikasi standar global dalam pengolahan, pemodelan, dan analisis data bisnis oleh Certiport.',
+      excerpt: 'Global standard certification in business data processing, modeling, and analysis by Certiport.',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -196,7 +196,7 @@ export const blogData = {
       date: 'Nov, 2024',
       readTime: '10 min',
       image: '/jh.png',
-      excerpt: 'Penguasaan operasional, integrasi, dan keamanan infrastruktur web-cloud lingkungan kerja.',
+      excerpt: 'Operational control, integration, and security of the work environments web-cloud infrastructure.',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -204,7 +204,7 @@ export const blogData = {
       date: 'May, 2025',
       readTime: '9 min',
       image: '/n-to-n.png',
-      excerpt: 'Penghargaan atas keberhasilan ujian kenaikan level melalui proyek alur kerja serverless terautomasi di AWS.',
+      excerpt: 'Recognition for successfully passing the level-up exam via an automated serverless workflow project on AWS.',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -212,7 +212,7 @@ export const blogData = {
       date: 'Nov, 2024',
       readTime: '7 min',
       image: '/ukl.png',
-      excerpt: 'Sertifikat peningkatan level kompetensi di bidang jaringan komputer dan infrastruktur IT.',
+      excerpt: 'Certificate of competency level advancement in computer networking and IT infrastructure.',
     },
     {
       title: 'UKBI',
@@ -220,7 +220,7 @@ export const blogData = {
       date: 'Sep, 2024',
       readTime: '7 min',
       image: '/ukbi.png',
-      excerpt: 'Sertifikat kompetensi bahasa Indonesia standar Kemendikbudristek.',
+      excerpt: 'Indonesian language proficiency certificate meeting Ministry of Education, Culture, Research, and Technology standards.',
     },
     {
       title: 'Capital Market School',
@@ -228,7 +228,7 @@ export const blogData = {
       date: 'Feb, 2026',
       readTime: '7 min',
       image: '/spm.png',
-      excerpt: 'Pelatihan literasi keuangan dan investasi IDX Surabaya.',
+      excerpt: 'IDX Surabaya financial literacy and investment training.',
     },
   ],
 }
