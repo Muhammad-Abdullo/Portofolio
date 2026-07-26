@@ -226,7 +226,6 @@ export const blogData = {
       title: 'Capital Market School',
       category: 'Creative',
       date: 'Feb, 2026',
-      readTime: '7 min',
       image: '/spm.png',
       excerpt: 'IDX Surabaya financial literacy and investment training.',
     },
