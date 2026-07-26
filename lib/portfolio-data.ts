@@ -196,7 +196,7 @@ export const blogData = {
       date: 'Nov, 2024',
       readTime: '10 min',
       image: '/jh.png',
-      excerpt: '',
+      excerpt: 'Penguasaan operasional, integrasi, dan keamanan infrastruktur web-cloud lingkungan kerja.',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -204,7 +204,7 @@ export const blogData = {
       date: 'May, 2025',
       readTime: '9 min',
       image: '/n-to-n.png',
-      excerpt: '',
+      excerpt: 'Penghargaan atas keberhasilan ujian kenaikan level melalui proyek alur kerja serverless terautomasi di AWS.',
     },
     {
       title: 'Level Up Test Computer And Network Engineering Skills',
@@ -212,7 +212,7 @@ export const blogData = {
       date: 'Nov, 2024',
       readTime: '7 min',
       image: '/ukl.png',
-      excerpt: '',
+      excerpt: 'Sertifikat peningkatan level kompetensi di bidang jaringan komputer dan infrastruktur IT.',
     },
     {
       title: 'UKBI',
