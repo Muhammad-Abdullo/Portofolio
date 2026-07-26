@@ -128,7 +128,7 @@ export const portfolioData = {
     },
     {
       title: 'ON GOING',
-      category: 'Projects',
+      category: 'Creative',
       image: '/ongoin.jpg',
       description: 'Elegant restaurant website with online ordering',
       tech: ['Next.js', 'Sanity CMS', 'Stripe'],
