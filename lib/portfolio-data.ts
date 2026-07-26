@@ -85,6 +85,9 @@ export const portfolioData = {
       title: 'ON GOING',
       category: 'Engineering',
       image: '/ongoin.jpg',
+      description: 'Full-stack e-commerce solution with payment integration',
+      tech: ['Next.js', 'Node.js', 'PostgreSQL'],
+      liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/johndoe/ecommerce',
     },
     {
