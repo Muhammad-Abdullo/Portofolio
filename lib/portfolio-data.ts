@@ -228,7 +228,7 @@ export const blogData = {
       date: 'Feb, 2026',
       readTime: '7 min',
       image: '/spm.png',
-      excerpt: 'Pelatihan resmi literasi keuangan dan analisis investasi saham dari IDX Surabaya.',
+      excerpt: 'Pelatihan literasi keuangan dan investasi dari IDX Surabaya.',
     },
   ],
 }
