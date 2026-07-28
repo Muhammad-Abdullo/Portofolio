@@ -1,4 +1,4 @@
-import { Mail, Phone, Calendar, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin } from 'lucide-react'
 import { Github, Linkedin, Instagram } from 'lucide-react'
 import { profileData } from '@/lib/portfolio-data'
 
@@ -7,7 +7,6 @@ interface ProfileSidebarProps {
 }
 
 export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
-  // Membersihkan nomor telepon agar menjadi format angka bersih untuk WhatsApp (misal: 6281357841933)
   const whatsappNumber = data.phone.replace(/[^0-9]/g, '')
 
   return (
@@ -67,17 +66,6 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
             >
               {data.phone}
             </a>
-          </div>
-        </div>
-
-        {/* Birthday */}
-        <div className="flex items-start gap-3">
-          <div className="w-10 h-10 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0">
-            <Calendar className="w-5 h-5 text-accent" />
-          </div>
-          <div className="flex-1">
-            <p className="text-xs text-muted-foreground uppercase mb-1">Birthday</p>
-            <p className="text-sm text-foreground">{data.birthday}</p>
           </div>
         </div>
 
