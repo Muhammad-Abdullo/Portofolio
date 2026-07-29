@@ -88,7 +88,7 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/ecommerce',
     },
     {
-      title: 'AWS Academy Cloud Foundations & Cloud Operations',
+      title: 'AWS Cloud Foundations & Cloud Operations',
       category: 'Engineering',
       image: '/nilai_aws.png',
       githubUrl: 'https://github.com/johndoe/taskmanager',
