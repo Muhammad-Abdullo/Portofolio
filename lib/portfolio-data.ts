@@ -94,9 +94,9 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/taskmanager',
     },
     {
-      title: 'ON GOING',
+      title: 'Basic IT & Networking Projects',
       category: 'Engineering',
-      image: '/ongoin.jpg',
+      image: '/basic_it.png',
       githubUrl: 'https://github.com/johndoe/portfolio',
     },
     {
