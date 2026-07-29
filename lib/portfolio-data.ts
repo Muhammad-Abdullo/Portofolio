@@ -100,15 +100,15 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/portfolio',
     },
     {
-      title: 'ON GOING',
+      title: 'Supporter Choreography LeadSchool_Futsal Series',
       category: 'Creative',
-      image: '/ongoin.jpg',
+      image: '/panit.jpeg',
       githubUrl: 'https://github.com/johndoe/dashboard',
     },
     {
-      title: 'ON GOING',
+      title: 'Supporter Choreography LeadSchool_DBL',
       category: 'Creative',
-      image: '/ongoin.jpg',
+      image: '/panit.jpeg',
       githubUrl: 'https://github.com/johndoe/banking',
     },
     {
