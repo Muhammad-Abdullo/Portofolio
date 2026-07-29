@@ -85,7 +85,7 @@ export const portfolioData = {
       title: 'serverless PoC',
       category: 'Engineering',
       image: '/serverless.png',
-      githubUrl: 'https://github.com/johndoe/ecommerce',
+      githubUrl: 'https://github.com/Muhammad-Abdullo/project_portofolio/tree/main/project-1',
     },
     {
       title: 'AWS Cloud Foundations & Cloud Operations',
