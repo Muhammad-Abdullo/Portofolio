@@ -82,9 +82,9 @@ export const portfolioData = {
   categories: ['all', 'Engineering', 'Creative', 'Leadership'],
   projects: [
     {
-      title: 'ON GOING',
+      title: 'serverless PoC',
       category: 'Engineering',
-      image: '/ongoin.jpg',
+      image: '/serverless.png',
       githubUrl: 'https://github.com/johndoe/ecommerce',
     },
     {
