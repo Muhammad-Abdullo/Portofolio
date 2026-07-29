@@ -118,9 +118,9 @@ export const portfolioData = {
       githubUrl: 'https://github.com/johndoe/restaurant',
     },
     {
-      title: 'ON GOING',
+      title: 'Raising awareness about the dangers of online gambling',
       category: 'Leadership',
-      image: '/ongoin.jpg',
+      image: '/pandaan.png',
       githubUrl: 'https://github.com/johndoe/dashboard',
     },
     {
