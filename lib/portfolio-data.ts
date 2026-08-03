@@ -1,10 +1,9 @@
 export const profileData = {
   name: 'MUHAMMAD ABDULLOH',
-  title: 'Technical Support Engineer | Network Engineer | Cloud Engineer',
+  title: 'IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus',
   avatar: '/foto_latar.jpeg',
   email: 'inimuhammad777@gmail.com',
   phone: '+62 81357841933',
-  birthday: 'Desember 17, 2007',
   location: 'Surabaya, Indonesia',
   social: {
     github: 'https://github.com/Muhammad-Abdullo',
