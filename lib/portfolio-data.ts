@@ -1,6 +1,6 @@
 export const profileData = {
   name: 'MUHAMMAD ABDULLOH',
-  title: 'Network Engineer | Cloud Engineer',
+  title: 'Technical Support Engineer | Network Engineer | Cloud Engineer',
   avatar: '/foto_latar.jpeg',
   email: 'inimuhammad777@gmail.com',
   phone: '+62 81357841933',
@@ -67,7 +67,7 @@ export const resumeData = {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
       description:
-        'As an TAD Engineer on Site for PT Pertamina Patra Niaga on the PPN Jatimbalinus Regional Project.',
+        'IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus.',
     },
     {
       title: 'PT. Telkomsel',
