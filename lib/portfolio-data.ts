@@ -57,8 +57,9 @@ export const resumeData = {
     {
       title: 'SMK Telkom Malang',
       period: '2023 — 2026',
-      description:
-        'Students majoring in Computer and Network Engineering study computer networking, system administration, device installation, troubleshooting, and cloud technology to prepare for the workforce.',
+      description: [
+        'Students majoring in Computer and Network Engineering study computer networking, system administration, device installation, troubleshooting, and cloud technology to prepare for the workforce.'
+      ],
     },
   ],
   experience: [
@@ -69,14 +70,15 @@ export const resumeData = {
         'IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus.',
         '- Provide comprehensive (end-to-end) technical support for 50 gas stations in the Pasuruan area to ensure the reliability and smooth operation of digital systems.',
         '- Perform preventive and corrective maintenance on IT infrastructure, network devices, and digital systems to minimize downtime.',
-        '- Prepare technical documentation and maintenance reports to support operational standards and knowledge sharing.',
+        '- Prepare technical documentation and maintenance reports to support operational standards and knowledge sharing.'
       ],
     },
     {
       title: 'PT. Telkomsel',
       period: 'November 2025 — April 2026',
-      description:
-        'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.',
+      description: [
+        'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.'
+      ],
     },
   ],
 }
