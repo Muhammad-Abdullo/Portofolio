@@ -65,10 +65,12 @@ export const resumeData = {
     {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
-      description: `IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus.
-- Provide comprehensive (end-to-end) technical support for 50 gas stations in the Pasuruan area to ensure the reliability and smooth operation of digital systems.
-- Perform preventive and corrective maintenance on IT infrastructure, network devices, and digital systems to minimize downtime.
-- Prepare technical documentation and maintenance reports to support operational standards and knowledge sharing.`,
+      description: [
+        'IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus.',
+        '- Provide comprehensive (end-to-end) technical support for 50 gas stations in the Pasuruan area to ensure the reliability and smooth operation of digital systems.',
+        '- Perform preventive and corrective maintenance on IT infrastructure, network devices, and digital systems to minimize downtime.',
+        '- Prepare technical documentation and maintenance reports to support operational standards and knowledge sharing.',
+      ],
     },
     {
       title: 'PT. Telkomsel',
