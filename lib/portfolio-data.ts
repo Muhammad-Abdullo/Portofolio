@@ -79,7 +79,7 @@ export const resumeData = {
       description: [
         'VIP Network, Event & Enterprise Handling Internship',
         '- Assist in conducting Drive Tests (DT) and Walking Tests (WT) to monitor network quality.',
-        '- Assist with network monitoring activities and event operations..',
+        '- Assist with network monitoring activities and event operations.',
       ],
     },
   ],
