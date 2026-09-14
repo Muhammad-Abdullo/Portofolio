@@ -14,6 +14,12 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
 
   const whatsappNumber = data.phone.replace(/[^0-9]/g, '')
 
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
+    data.email
+  )}`
+
+  const whatsappUrl = `https://wa.me/${whatsappNumber}`
+
   return (
     <>
       <aside className="w-full lg:w-80 bg-card rounded-2xl border border-border p-4 md:p-6 lg:sticky lg:top-8 h-fit">
@@ -70,7 +76,9 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
               </p>
 
               <a
-                href={`mailto:${data.email}`}
+                href={gmailUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm text-foreground hover:text-accent transition-colors break-all"
               >
                 {data.email}
@@ -90,7 +98,7 @@ export function ProfileSidebar({ data = profileData }: ProfileSidebarProps) {
               </p>
 
               <a
-                href={`https://wa.me/${whatsappNumber}`}
+                href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-foreground hover:text-accent transition-colors"
