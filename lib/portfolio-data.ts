@@ -67,17 +67,19 @@ export const resumeData = {
       title: 'PT. Pertamina Training and Consulting',
       period: ' August 2026 — Present',
       description: [
-        'IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus.',
+        'IT Digitalization Support at PT. Pertamina Patra Niaga Jatimbalnus Region V',
         '- Provide comprehensive (end-to-end) technical support for 50 gas stations in the Pasuruan area to ensure the reliability and smooth operation of digital systems.',
         '- Perform preventive and corrective maintenance on IT infrastructure, network devices, and digital systems to minimize downtime.',
         '- Prepare technical documentation and maintenance reports to support operational standards and knowledge sharing.'
       ],
     },
     {
-      title: 'PT. Telkomsel',
+      title: 'PT. Telekomunikasi Selular (Telkomsel)',
       period: 'November 2025 — April 2026',
       description: [
-        'Assist with telecommunications network maintenance, perform device monitoring and basic troubleshooting, and learn about network infrastructure operations alongside the technical team.'
+        'VIP Network, Event & Enterprise Handling Internship',
+        '- Assist in conducting Drive Tests (DT) and Walking Tests (WT) to monitor network quality.',
+        '- Assist with network monitoring activities and event operations..',
       ],
     },
   ],
